@@ -1,0 +1,143 @@
+.tasks {
+    position: relative;
+    top: 200px;
+    left: 80px;
+    display: flex;
+
+}
+.box {
+    margin: 10px;
+    width: 370px;
+    height: 287px;
+
+    background: #F2F2F2;
+    border-radius: 29px;
+    box-shadow:1px 0px 12px rgba(0, 0, 0, .2);
+}
+
+.box>.ellipse {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    left: 20px;
+    top: -90px;
+    background: #EDEDED;
+    box-shadow: 0px 4px 7px rgba(148, 148, 148, 1);
+    border-radius: 100px;
+}
+
+.id {
+    position: relative;
+    width: 11px;
+height: 22px;
+left: 31px;
+bottom: 5px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+
+color: #EB5757;
+
+/* Red */
+opacity: 0.56;
+}
+.title {
+    position: relative;
+    width: 173px;
+    height: 22px;
+    left: 70px;
+    top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    color: #828282;
+}
+
+.info {
+    position: relative;
+    width: 271px;
+    height: 52px;
+    left: 60px;
+    top: 15px;
+    /* Gray 4 */
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #828282;
+    text-align: justify;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.info   > p {
+    margin: 10px;
+
+}
+.task-lable {
+    position: relative;
+    width: 38px;
+    height: 22px;
+    left: 100px;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    color: #828282;
+}
+
+.date-lable {
+    position: relative;
+width: 26px;
+height: 16px;
+left: 100px;
+top: 15px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 16px;
+
+color: #828282;
+}
+
+.task-box {
+    position: relative;
+width: 176px;
+height: 42px;
+left: 142px;
+top: -14px;
+
+/* Gray 5 */
+background: #E0E0E0;
+border: 1px solid #C8C8C8;
+box-sizing: border-box;
+box-shadow: 0px 4px 1px rgba(137, 137, 137, 0.1);
+border-radius: 3px;
+padding: 10px;
+color: #EB5757
+}
+
+.date-box {
+    /* Rectangle 3 */
+
+position: relative;
+width: 175px;
+height: 22px;
+left: 142px;
+
+
+/* Gray 5 */
+background: #E0E0E0;
+border: 1px solid #AEAEAE;
+box-sizing: border-box;
+border-radius: 3px;
+}
